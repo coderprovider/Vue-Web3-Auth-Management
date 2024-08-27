@@ -10,3 +10,4 @@ export type { Chain, MulticallArgs, MulticallContract, Options } from './types'
 export * from './utils/abi'
 export { init } from './wc'
 export { Chains }
+

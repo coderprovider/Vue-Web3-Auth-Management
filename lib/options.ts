@@ -43,3 +43,5 @@ export function setOptions(newOptions: Options | {}): void {
     }
   }
 }
+
+// export { Chains }

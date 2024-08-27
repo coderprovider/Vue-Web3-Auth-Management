@@ -3,5 +3,6 @@ export enum Events {
   Disconnected = 'disconnect',
   ChainSwitched = 'chain_switched',
   UnknownChain = 'unknown_chain',
+  UnknownChainconnect = 'unknown_chain',
   ModalStateChanged = 'modal_state_changed'
 }

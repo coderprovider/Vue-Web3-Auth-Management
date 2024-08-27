@@ -33,6 +33,17 @@ export type Options = {
   /**
    * when chain changed account will disconnect then connect again. when true, event "chain_switched" isn't available
    */
+
+  // const accountState = reactive<ConnectedAccount>({
+  //   connected: false,
+  //   address: undefined,
+  //   shortAddress: undefined,
+  //   wallet: {
+  //     id: undefined,
+  //     name: undefined
+  //   }
+  // })
+
   reconnectToChain?: boolean
   logEnabled?: boolean
   /**

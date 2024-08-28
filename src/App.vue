@@ -12,7 +12,7 @@ import {
   getAvailableChains,
   connect as masterConnect,
   disconnect as masterDisconnect,
-  signMessage as masterSignMessage,
+  signMessage as masterSignMessage, 
   switchChain as masterSwitchChain,
   selectChain
 } from '../lib'
@@ -24,7 +24,7 @@ const loading = reactive({
   logouting: false
 })
 
-async function connect(newChain?: Chain) {
+async function connect(newChain?: Chain) {  
   const handler = (state: boolean) => {
     if (!state) {
       if (newChain) {
@@ -34,7 +34,7 @@ async function connect(newChain?: Chain) {
       }
 
       $off(Events.ModalStateChanged, handler)
-    }
+    } 
   }
 
   $on(Events.ModalStateChanged, handler)

@@ -14,17 +14,17 @@ app.use(
     chains: [Chains.bsc, Chains.mainnet, Chains.polygon],
     autoConnect: true,
     disconnectUnknownChain: true,
-    reconnectToChain: true,
+    reconnectToChain: true, 
     logEnabled: true,
     enableCustomProvider: true,
-    web3modalOptions: {
+    web3modalOptions: { 
       themeMode: 'light',
       themeVariables: {
         '--w3m-accent-color': '#0d6efd',
         '--w3m-background-color': '#0d6efd',
         '--w3m-background-border-radius': '0.375rem',
         '--w3m-container-border-radius': '0.375rem',
-        '--w3m-wallet-icon-border-radius': '0.375rem',
+        '--w3m-wallet-icon-border-radius': '0.375rem',  
         '--w3m-wallet-icon-large-border-radius': '0.375rem',
         '--w3m-wallet-icon-small-border-radius': '0.375rem',
         '--w3m-input-border-radius': '0.375rem',

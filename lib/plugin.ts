@@ -9,7 +9,7 @@ export function createWeb3Auth(options: Options): Plugin {
     install() {
       setOptions(options)
       if (optionsState.autoInit) {
-        init()
+        init()  
       }
     }
   }

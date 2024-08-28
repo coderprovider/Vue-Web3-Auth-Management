@@ -17,7 +17,7 @@ const accountState = reactive<ConnectedAccount>({
   shortAddress: undefined,
   wallet: {
     id: undefined,
-    name: undefined
+    name: undefined       
   }
 })
 
